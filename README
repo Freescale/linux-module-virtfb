@@ -18,5 +18,5 @@ Use:
 The kernel module takes a single argument vfbcount which is an integer
 number of virtual framebuffers which will be created. The default size of the
 framebuffers is 128x128 16bpp, but this can be reconfigured using fbset after
-the module is loaded.
+the module is loaded. Most preferable way would be having it in userspace.
 
